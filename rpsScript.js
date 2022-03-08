@@ -9,25 +9,25 @@ playerSelection = info.charAt(0).toUpperCase() + info.slice(1).toLowerCase();
 computerSelection = computerPlay();
 function playRound(playerSelection, computerSelection){
     if(computerSelection == playerSelection){
-        return "It's a tie!";
+        return alert("It's a tie!");
     }
     if(computerSelection == "Rock" && playerSelection == "Paper"){
         return alert("I chose Rock. You chose Paper. Paper covers Rock. You win!");
     }
     if(computerSelection == "Rock" && playerSelection == "Scissors"){
-        return "Rock breaks Scissors. I win!"
+        return alert("Rock breaks Scissors. I win!");
     }
     if(computerSelection == "Paper" && playerSelection == "Scissors"){
-        return "Scissors cut Paper. You win!";
+        return alert("Scissors cut Paper. You win!");
     }
     if(computerSelection == "Paper" && playerSelection == "Rock"){
-        return "Paper covers Rock. I win!";
+        return alert("Paper covers Rock. I win!");
     }
     if(computerSelection == "Scissors" && playerSelection == "Rock"){
-        return "Rock breaks Scissors. You win!";
+        return alert("Rock breaks Scissors. You win!");
     }
     if(computerSelection == "Scissors" && playerSelection == "Paper"){
-        return "Scissors cut Paper. I win!";
+        return alert("Scissors cut Paper. I win!");
     }
 }
 
