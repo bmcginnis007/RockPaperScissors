@@ -31,11 +31,11 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
+location.reload()
+
 
 console.log(`You chose ${playerSelection}`);
 console.log(`I chose ${computerSelection}`);
 console.log(playRound(playerSelection, computerSelection));
 
-function game(){
-  
-}
+// loops playRound 5 times and declares a winner
