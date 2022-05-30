@@ -7,9 +7,9 @@
     </head>
     <body>
         <div class="heading">
-            <h1>Welcome to Rock Paper Scissors</h1>
-            <h2>In this game you will play against the computer. Choose Rock, Paper, or Scissors. 
-                Each player is given one point when they win each round. First player to score 5 points wins. Have fun!</h2>
+            <p>Welcome to Rock Paper Scissors</p>
+            <h3>In this game you will play against the computer. Choose Rock, Paper, or Scissors. 
+                Each player is given one point when they win each round. First player to score 5 points wins. Have fun!</h3>
         </div>
         <div>
             <div class="buttons">
@@ -17,6 +17,32 @@
             <button id="paper">Paper</button>
             <button id="scissors">Scissors</button>
             </div>
+        </div>
+
+        <div class="tables">
+            <table style="width: 100%; border-spacing: 5px;">
+                <tr>
+                    <th class="firstHeader"></th>
+                    <th>Rock</th>
+                    <th>Paper</th>
+                    <th>Scissors</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Player:</td>
+                    <td id="td1" style="text-align: center;"></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: center; font-size: 45px;">0</td>
+                </tr>
+                <tr>
+                    <td>Computer:</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: center; font-size: 45px;">0</td>
+                </tr>
+            </table>
         </div>
     </body>
     <script src="rpsScript.js"></script>

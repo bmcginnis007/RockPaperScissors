@@ -22,6 +22,7 @@ function options(){
          playerSelection = "Paper";
          computerSelection = computerPlay();
         playRound(computerSelection, playerSelection);
+        document.getElementById("td1").innerHTML = "X";
         console.log(`${playerSelection}`);
         console.log(`${computerSelection}`);
     });
