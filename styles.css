@@ -50,12 +50,12 @@ h3{
     font-size: larger;
     font-weight: bold;
     margin-right: 15px;
+    background-color: white;
 }
 
-#rock:hover {background-color: #3e8e41}
+#rock:hover {background-color: white;}
 
 #rock:active {
-  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -66,13 +66,13 @@ h3{
     font-size: larger;
     font-weight: bold;
     margin-right: 15px;
+    background-color: white;
 
 }
 
-#paper:hover {background-color: #3e8e41}
+#paper:hover {background-color: white;}
 
 #paper:active {
-  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -83,12 +83,12 @@ h3{
     font-size: larger;
     font-weight: bold;
     margin-right: 15px;
+    background-color: white;
 }
 
-#scissors:hover {background-color: #3e8e41}
+#scissors:hover {background-color: white;}
 
 #scissors:active {
-  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
